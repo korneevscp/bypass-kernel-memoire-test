@@ -76,6 +76,8 @@ Le script recherche GCC dans le `PATH` et dans quelques emplacements courants, p
 - Les symboles et adresses du noyau ne sont pas des valeurs stables : ils peuvent varier d'une version ou d'un démarrage à l'autre.
 - Ce dépôt ne fournit pas de méthode garantie de contournement du noyau, d'élévation de privilèges ou de désactivation des protections.
 
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/korneevscp/bypass-kernel-memoire-test?utm_source=readme&utm_medium=badge)
+
 ### Utilisation responsable
 
 En utilisant ce dépôt, vous vous engagez à :
@@ -155,6 +157,8 @@ The script searches the `PATH` and several common locations for GCC, then compil
 - Access to `/proc/kallsyms` depends on kernel configuration and process privileges.
 - Kernel symbols and addresses are not stable values; they may change across kernel versions and system boots.
 - This repository does not provide a guaranteed kernel bypass, privilege-escalation method, or security-control disablement.
+
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/korneevscp/bypass-kernel-memoire-test?utm_source=readme&utm_medium=badge)
 
 ### Responsible use
 
